@@ -258,7 +258,7 @@ export default function App() {
           <div className="card">
             <h2 className="section-title">Contact</h2>
             <p className="section-subtitle">
-              Tu peux me contacter pour toute question, collaboration ou opportunité professionnelle.
+              Vous pouvez me contacter pour toute question suplémentaire.
             </p>
 
             <div className="contact-grid">
