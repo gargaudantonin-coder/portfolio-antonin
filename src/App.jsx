@@ -44,6 +44,7 @@ export default function App() {
             <a href="#competences">Compétences</a>
             <a href="#projets">Projets</a>
             <a href="#veille" className="hover:text-white">Veille</a>
+            <a href="#synthese">Synthèse</a>
             <a href="#contact">Contact</a>
           </nav>
         </div>
@@ -255,6 +256,33 @@ export default function App() {
 
   </ul>
 </div>
+</section>
+<section className="section" id="synthese">
+  <div className="card">
+    <h2 className="section-title">Tableau de synthèse</h2>
+    <p className="section-subtitle">
+      Retrouvez ici mon tableau de synthèse BTS SIO présentant les compétences acquises et les projets réalisés.
+    </p>
+
+    <div className="mt-6">
+      <iframe
+        src="/synthese/tableau.pdf"
+        width="100%"
+        height="600px"
+        style={{ borderRadius: "12px", border: "1px solid rgba(255,255,255,0.1)" }}
+      ></iframe>
+    </div>
+
+    <div className="mt-4">
+      <a
+        href="/synthese/tableau.pdf"
+        target="_blank"
+        className="project-btn"
+      >
+        Ouvrir en plein écran
+      </a>
+    </div>
+  </div>
 </section>
         <section className="section" id="contact">
           <div className="card">
