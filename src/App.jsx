@@ -99,8 +99,10 @@ export default function App() {
             <div className="card">
               <h3>Objectif</h3>
               <p>
-                Construire un portfolio propre, moderne et publiable sur le web, capable de présenter mes
-                compétences, mes projets et mes documents BTS de manière claire et professionnelle.
+                Actuellement étudiant en BTS SIO option SISR et en alternance à La Périgourdine, 
+                mon objectif est de développer mes compétences en administration systèmes et réseaux, 
+                en cybersécurité et en supervision, afin de devenir un professionnel capable de concevoir, 
+                sécuriser et maintenir des infrastructures informatiques fiables et performantes.
               </p>
             </div>
           </div>
